@@ -22,118 +22,118 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpmsg ="""╠═════════════════
-╠-> google (text)
-╠-> playstore (text)
-╠-> instagram (username)
-╠-> wikipedia (text)
-╠-> idline (text)
-╠-> time
-╠-> image (text)
-╠-> runtime
-╠-> Restart
-╠-> lirik (text)
-╠-> Mention
-╠-> Lurk on/off
-╠-> Lurkers
-╠-> protect on/off
-╠-> qr on/off
-╠-> invite on/off
-╠-> Cancel on/off
-╠-> Simisimi:on/off
-╠-> Read on/off
-╠-> Getinfo @
-╠-> Getcontact @
-╠-> ulti @
-╠-> speed
-╠-> Friendlist
-╠-> id@en
-╠-> en@id
-╠-> id@jp\n                 「OR」\n╠-> helppro\n╠-> helpself\n╠-> helpset\n╠-> helpgrup\n╠-> helptranslate
+􀜁􀄯􏿿 google (text)
+􀜁􀄯􏿿 playstore (text)
+􀜁􀄯􏿿 instagram (username)
+􀜁􀄯􏿿 wikipedia (text)
+􀜁􀄯􏿿 idline (text)
+􀜁􀄯􏿿 time
+􀜁􀄯􏿿 image (text)
+􀜁􀄯􏿿 runtime
+􀜁􀄯􏿿 Restart
+􀜁􀄯􏿿 lirik (text)
+􀜁􀄯􏿿 Mention
+􀜁􀄯􏿿 Lurk on/off
+􀜁􀄯􏿿 Lurkers
+􀜁􀄯􏿿 protect on/off
+􀜁􀄯􏿿 qr on/off
+􀜁􀄯􏿿 invite on/off
+􀜁􀄯􏿿 Cancel on/off
+􀜁􀄯􏿿 Simisimi:on/off
+􀜁􀄯􏿿 Read on/off
+􀜁􀄯􏿿 Getinfo @ 
+􀜁􀄯􏿿 Getcontact @
+􀜁􀄯􏿿 ulti @
+􀜁􀄯􏿿 speed
+􀜁􀄯􏿿 Friendlist
+􀜁􀄯􏿿 id@en
+􀜁􀄯􏿿 en@id
+􀜁􀄯􏿿 id@jp\n                 「OR」\n╠-> helppro\n╠-> helpself\n╠-> helpset\n╠-> helpgrup\n╠-> helptranslate
 ╚═════════════════"""
 
 helppro ="""
 ╠═════════════════
-╠➩ protect on/off
-╠➩ qr on/off
-╠➩ invite on/off
-╠➩ cancel on/off
+􀜁􀄯􏿿 protect on/off
+􀜁􀄯􏿿 qr on/off
+􀜁􀄯􏿿 invite on/off
+􀜁􀄯􏿿 cancel on/off
 ╚═════════════════"""
 
 helpself ="""
 ╠═════════════════
-╠➩Me
-╠➩Myname:
-╠➩Mybio:
-╠➩Mypict
-╠➩Mycover
-╠➩My copy @
-╠➩My backup
-╠➩Getgroup image
-╠➩Getmid @
-╠➩Getprofile @
-╠➩Getinfo @
-╠➩Getname @
-╠➩Getbio @
-╠➩Getpict @
-╠➩Getcover @
-╠➩Mention
-╠➩setpoint on/off
-╠➩viewlastseen
-╠➩Micadd @
-╠➩Micdel @
+􀜁􀄯􏿿 Me
+􀜁􀄯􏿿 Myname:
+􀜁􀄯􏿿 Mybio:
+􀜁􀄯􏿿 Mypict
+􀜁􀄯􏿿 Mycover
+􀜁􀄯􏿿 My copy @
+􀜁􀄯􏿿 My backup
+􀜁􀄯􏿿 Getgroup image
+􀜁􀄯􏿿 Getmid @
+􀜁􀄯􏿿 Getprofile @
+􀜁􀄯􏿿 Getinfo @
+􀜁􀄯􏿿 Getname @
+􀜁􀄯􏿿 Getbio @
+􀜁􀄯􏿿 Getpict @
+􀜁􀄯􏿿 Getcover @
+􀜁􀄯􏿿 Mention
+􀜁􀄯􏿿 setpoint on/off
+􀜁􀄯􏿿 viewlastseen
+􀜁􀄯􏿿 Micadd @
+􀜁􀄯􏿿 Micdel @
 ╚═════════════════"""
 
 helpset ="""
 ╠═════════════════
-╠->contact on/off
-╠->autojoin on/off
-╠->auto leave on/off
-╠->autoadd on/off
-╠->like friend
-╠->link on
-╠->respon on/off
-╠->read on/off
-╠->simisimi on/off
+􀜁􀄯􏿿 contact on/off
+􀜁􀄯􏿿 autojoin on/off
+􀜁􀄯􏿿 auto leave on/off
+􀜁􀄯􏿿 autoadd on/off
+􀜁􀄯􏿿 like friend
+􀜁􀄯􏿿 link on
+􀜁􀄯􏿿 respon on/off
+􀜁􀄯􏿿 read on/off
+􀜁􀄯􏿿 simisimi on/off
 ╚═════════════════"""
 
 helpgrup ="""
 ╠═════════════════
-╠->Link on
-╠->Url
-╠->Cancel
-╠->Gcreator
-╠->Kick @
-╠->Ulti @
-╠->Gname:
-╠->Gbroadcast:
-╠->Cbroadcast:
-╠->Infogrup
-╠->Gruplist
-╠->Friendlist
-╠->Blacklist
-╠->Ban @
-╠->Unban @
-╠->Clearban
-╠->Banlist
-╠->Contact ban
-╠->Midban
+􀜁􀄯􏿿 Link on
+􀜁􀄯􏿿 Url
+􀜁􀄯􏿿 Cancel
+􀜁􀄯􏿿 Gcreator
+􀜁􀄯􏿿 Kick @
+􀜁􀄯􏿿 Ulti @
+􀜁􀄯􏿿 Gname:
+􀜁􀄯􏿿 Gbroadcast:
+􀜁􀄯􏿿 Cbroadcast:
+􀜁􀄯􏿿 Infogrup
+􀜁􀄯􏿿 Gruplist
+􀜁􀄯􏿿 Friendlist
+􀜁􀄯􏿿 Blacklist
+􀜁􀄯􏿿 Ban @
+􀜁􀄯􏿿 Unban @
+􀜁􀄯􏿿 Clearban
+􀜁􀄯􏿿 Banlist
+􀜁􀄯􏿿 Contact ban
+􀜁􀄯􏿿 Midban
 ╚═════════════════"""
 
 helptranslate ="""
 ╠═════════════════
-╠->Id@en
-╠->En@id
-╠->Id@jp
-╠->Jp@id
-╠->Id@th
-╠->Th@id
-╠->Id@ar
-╠->Ar@id
-╠->Id@ko
-╠->Ko@id
-╠->Say-id
-╠->Say-en
-╠->Say-jp
+􀜁􀄯􏿿 Id@en
+􀜁􀄯􏿿 En@id
+􀜁􀄯􏿿 Id@jp
+􀜁􀄯􏿿 Jp@id
+􀜁􀄯􏿿 Id@th
+􀜁􀄯􏿿 Th@id
+􀜁􀄯􏿿 Id@ar
+􀜁􀄯􏿿 Ar@id
+􀜁􀄯􏿿 Id@ko
+􀜁􀄯􏿿 Ko@id
+􀜁􀄯􏿿 Say-id
+􀜁􀄯􏿿 Say-en
+􀜁􀄯􏿿 Say-jp
 ╚═════════════════"""
 
 KAC=[cl]
@@ -623,7 +623,7 @@ def bot(op):
                 cl.sendText(msg.to, "%sseconds" % (elapsed_time))
             elif msg.text.lower() == 'crash':
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "u1f41296217e740650e0448b96851a3e2',"}
+                msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b',"}
                 cl.sendMessage(msg)
             elif msg.text.lower() == 'me':
                 msg.contentType = 13
@@ -878,7 +878,7 @@ def bot(op):
                 cl.sendMessage(msg)
             elif cms(msg.text,["creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ub14f769cdf42d8c8a618ebe91ac2c8c7"}
+                msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b"}
                 cl.sendMessage(msg)
             elif msg.text.lower() == 'autoadd on':
                 if wait["autoAdd"] == True:
@@ -2427,7 +2427,7 @@ def bot(op):
 
             elif cms(msg.text,["/creator","Creator"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ub14f769cdf42d8c8a618ebe91ac2c8c7"}
+                msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b"}
                 cl.sendMessage(msg)
 
             elif "friendpp: " in msg.text:
@@ -2882,7 +2882,7 @@ def bot(op):
                 	
             elif msg.text in ["Attack"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
+                msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b',"}
                 cl.sendMessage(msg)
                 cl.sendMessage(msg)
                 cl.sendMessage(msg)
@@ -2900,7 +2900,7 @@ def bot(op):
                 
             elif msg.text.lower() == '.....':
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "ua7fb5762d5066629323d113e1266e8ca',"}
+                msg.contentMetadata = {'mid': "uc77fd25b59f6e563d84f1334f3fed10b',"}
                 cl.sendMessage(msg)    
 #=================================PUY SCRIPT FINISHED =============================================#
             
